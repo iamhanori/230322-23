@@ -14,13 +14,13 @@ public class Even {
 
     public void pr() {
         if(a % 2 == 0) {
-            System.out.println("a는 짝수입니다.");
+            System.out.println(a + "(a)는 짝수입니다.");
         }
         if (b % 2 == 0) {
-            System.out.println("b는 짝수입니다.");
+            System.out.println(b + "(b)는 짝수입니다.");
         }
         if (c % 2 == 0) {
-            System.out.println("c는 짝수입니다.");
+            System.out.println(c + "(c)는 짝수입니다.");
         }
 
     }
