@@ -36,5 +36,10 @@
         <constructor-arg value="1" type="int"/>
     </bean>
 
+    <!-- 5.-->
+    <bean id="unten" class="kr.hs.study.beans.Unten" lazy-init="true">
+        <constructor-arg value="66" type="int"/>
+    </bean>
+
 
 </beans>

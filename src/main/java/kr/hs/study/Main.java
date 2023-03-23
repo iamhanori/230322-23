@@ -1,9 +1,6 @@
 package kr.hs.study;
 
-import kr.hs.study.beans.Changeab;
-import kr.hs.study.beans.Comparison;
-import kr.hs.study.beans.Even;
-import kr.hs.study.beans.Threeinteger;
+import kr.hs.study.beans.*;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class Main {
@@ -25,6 +22,10 @@ public class Main {
         // 4.
         Even even = ctx.getBean("even", Even.class);
         even.pr();
+
+        // 5.
+        Unten un = ctx.getBean("unten", Unten.class);
+        un.pr();
 
         ctx.close();
     }
