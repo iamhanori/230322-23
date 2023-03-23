@@ -27,6 +27,10 @@ public class Main {
         Unten un = ctx.getBean("unten", Unten.class);
         un.pr();
 
+        // 6.
+        Triangle tri = ctx.getBean("tri", Triangle.class);
+        tri.pr();
+
         ctx.close();
     }
 }

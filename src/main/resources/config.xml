@@ -31,9 +31,9 @@
 
     <!-- 4.-->
     <bean id="even" class="kr.hs.study.beans.Even" lazy-init="true">
-        <constructor-arg value="1" type="int"/>
-        <constructor-arg value="1" type="int"/>
-        <constructor-arg value="1" type="int"/>
+        <constructor-arg value="7" type="int"/>
+        <constructor-arg value="2" type="int"/>
+        <constructor-arg value="4" type="int"/>
     </bean>
 
     <!-- 5.-->
@@ -41,5 +41,11 @@
         <constructor-arg value="66" type="int"/>
     </bean>
 
+    <!-- 6.-->
+    <bean id="tri" class="kr.hs.study.beans.Triangle" lazy-init="true">
+        <constructor-arg value="62" type="int"/>
+        <constructor-arg value="54" type="int"/>
+        <constructor-arg value="23" type="int"/>
+    </bean>
 
 </beans>
