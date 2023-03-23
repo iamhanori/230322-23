@@ -1,5 +1,6 @@
 package kr.hs.study.beans;
 
+// 4. 세 정수 a, b, c가 입력되었을 때 짝수만 출력해보자.
 public class Even {
     int a;
     int b;
@@ -22,6 +23,5 @@ public class Even {
             System.out.println("c는 짝수입니다.");
         }
 
-        // 모두가 짝수아 아닐 경우도..
     }
 }
